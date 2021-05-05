@@ -1,0 +1,20 @@
+/********** global classes ************/
+button,button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/********* Header *********************/
+#header{
+    position: sticky;
+    top: 0;
+	z-index: 50;
+}
+
+/************** img-details ***********************/
+.owl-carousel .item .product img{
+    width: auto;
+    margin: 15px auto;
+    height: 200px;
+  }
+  

@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+    <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"> </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>
+    <script src="http://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>
+    <style type="text/css"></style>
+
+     <!-------------- Font Awesome -------------------->
+     <link rel="stylesheet" href="css/all.css">
+     <link rel="stylesheet" href="css/fonts.css">
+
+     <!-------------- AOS Library --------------------->
+     <link rel="stylesheet" href="css/aos.css">
+
+     <!-------------- Owl Carousel Library ------------>
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+</head>
+
+<body>
+
+<!------------- Start Header ------------------------->
+<header id="header">
+    <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+        <p class="font-size-12 tetx-black-50 m-0"> Good day, Thank you for choosing us. </p>
+        <div class="font-size-14">
+            <a href="#" class="px-3 border-right border-left text-dark"> Login </a>
+            <a href="#" class="px-3 border-right text-dark"> Wishlist (0) </a>
+        </div>
+    </div>
+
+<!------------- Primary-Navigation ------------------->
+<nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Shop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">On Sale</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products <i class="fas fa-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Category <i class="fas fa-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Comming Soon</a>
+          </li>
+        </ul>
+
+<!------------- Cart ---------------------------------->
+        <form action="#" class="font-size-14">
+            <a href="#" class="py-2 rounded-pill color-primary-bg">
+                <span class="font-size-16 px-2 text-white"> <i class="fas fa-shopping-cart"></i> </span>
+                <span class="px-3 py-2 rounded-pill text-dark bg-light"> 0 </span>
+            </a>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!------------- Start Main-Ste ----------------------->
+<main id="main-site">
+
+<!------------- Banner Owl-Carousel ------------------------->
+<section id="banner-area">
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <img src="assests/banner1.jfif" alt="banner1">
+    </div>
+    <div class="item">
+      <img src="assests/banner2.jfif" alt="banner2">
+    </div>
+    <div class="item">
+      <img src="assests/banner3.jfif" alt="banner3">
+    </div>
+  </div>
+</section>
+  
+<!------------- Top Sale ----------------------------->
+<section id="top-sale">
+  <div class="container py-5">
+    <h4 class="font-size-20"> Top Sale </h4>
+    <hr>
+<!------------- Items Owl-Carousel ------------------->
+    <div class="owl-carousel owl-theme">
+      <div class="item py-2 bg-light">
+        <div class="product font-rale">
+          <div class="zoom"><a href="#"> <img src="assests/products/product1.jfif" alt="product1" class="img-fluid"> </a>
+          </div>
+          <div class="text-center">
+            <h6> Nike Sneakers </h6>
+            <div class="rating text-warning font-size-12">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="far fa-star"></i> </span>
+            </div>
+            <div class="price py-2">
+              <span> R2000 </span>
+            </div>
+            <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+          </div>
+        </div>
+      </div>
+      <div class="item py-2 bg-light">
+        <div class="product">
+          <div class="zoom"><a href="#"> <img src="assests/products/product2.jfif" alt="product2" class="img-fluid"> </a>
+          </div>
+          <div class="text-center">
+            <h6> Nike Sneakers </h6>
+            <div class="rating text-warning font-size-12">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="far fa-star"></i> </span>
+            </div>
+            <div class="price py-2">
+              <span> R1500 </span>
+            </div>
+            <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+          </div>
+        </div>
+      </div>
+      <div class="item py-2 bg-light">
+        <div class="product">
+          <div class="zoom"><a href="#"> <img src="assests/products/product12.jfif" alt="product3" class="img-fluid"> </a>
+          </div>
+          <div class="text-center">
+            <h6> Nike Sneakers </h6>
+            <div class="rating text-warning font-size-12">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="far fa-star"></i> </span>
+            </div>
+            <div class="price py-2">
+              <span> R2500 </span>
+            </div>
+            <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+          </div>
+        </div>
+      </div>
+      <div class="item py-2 bg-light">
+        <div class="product">
+          <div class="zoom"><a href="#"> <img src="assests/products/product13.jfif" alt="product4" class="img-fluid"> </a>
+          </div>
+          <div class="text-center">
+            <h6> Nike Sneakers </h6>
+            <div class="rating text-warning font-size-12">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="far fa-star"></i> </span>
+            </div>
+            <div class="price py-2">
+              <span> R1500 </span>
+            </div>
+            <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+          </div>
+        </div>
+      </div>
+      <div class="item py-2 bg-light">
+        <div class="product">
+          <div class="zoom"><a href="#"> <img src="assests/products/product14.png" alt="product5" class="img-fluid"> </a>
+          </div>
+          <div class="text-center">
+            <h6> Nike Sneakers </h6>
+            <div class="rating text-warning font-size-12">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="far fa-star"></i> </span>
+            </div>
+            <div class="price py-2">
+              <span> R2500 </span>
+            </div>
+            <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+          </div>
+        </div>
+      </div>
+      <div class="item py-2 bg-light">
+        <div class="product">
+          <div class="zoom"><a href="#"> <img src="assests/products/product14.png" alt="product5" class="img-fluid"> </a>
+          </div>
+          <div class="text-center">
+            <h6> Nike Sneakers </h6>
+            <div class="rating text-warning font-size-12">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="far fa-star"></i> </span>
+            </div>
+            <div class="price py-2">
+              <span> R2500 </span>
+            </div>
+            <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+          </div>
+        </div>
+      </div>
+      <div class="item py-2 bg-light">
+        <div class="product">
+          <div class="zoom"><a href="#"> <img src="assests/products/product14.png" alt="product5" class="img-fluid"> </a>
+          </div>
+          <div class="text-center">
+            <h6> Nike Sneakers </h6>
+            <div class="rating text-warning font-size-12">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="far fa-star"></i> </span>
+            </div>
+            <div class="price py-2">
+              <span> R2500 </span>
+            </div>
+            <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------------- Special Price ------------------------>
+<section id="special-price">
+  <div class="container">
+    <h4 class="font-size-20"> Special Price </h4>
+    <hr>
+    <div id="filters" class="button-group text-right">
+      <button class="btn is-checked" data-filter="*"> All brands </button>
+      <button class="btn filter-button" data-filter=".Adidas"> Adidas </button>
+      <button class="btn filter-button" data-filter=".Puma"> Puma </button>
+      <button class="btn filter-button" data-filter=".Vans"> Vans </button>
+    </div>
+
+    <div class="grid">
+      <div class="grid-item filter Adidas border">
+       <div class="item py-2" style="width: 200px;">
+          <div class="product">
+            <div class="zoom"><a href="#"> <img src="assests/products/product15.jfif" alt="product1" class="img-fluid"> </a>
+            </div>
+            <div class="text-center">
+              <h6> Adidas Sneakers </h6>
+              <div class="rating text-warning font-size-12">
+                <span> <i class="fas fa-star"></i> </span>
+                <span> <i class="fas fa-star"></i> </span>
+                <span> <i class="fas fa-star"></i> </span>
+                <span> <i class="fas fa-star"></i> </span>
+                <span> <i class="far fa-star"></i> </span>
+              </div>
+              <div class="price py-2">
+                <span> R2000 </span>
+              </div>
+              <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+            </div>
+          </div>
+       </div>
+      </div>
+      <div class="grid-item Puma border">
+        <div class="item py-2" style="width: 200px;">
+           <div class="product">
+             <div class="zoom"><a href="#"> <img src="assests/products/product19.jfif" alt="product1" class="img-fluid"> </a>
+             </div>
+             <div class="text-center">
+               <h6> Puma Sneakers </h6>
+               <div class="rating text-warning font-size-12">
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="far fa-star"></i> </span>
+               </div>
+               <div class="price py-2">
+                 <span> R2000 </span>
+               </div>
+               <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+             </div>
+           </div>
+        </div>
+       </div>
+      <div class="grid-item Vans border">
+        <div class="item py-2" style="width: 200px;">
+           <div class="product">
+             <div class="zoom"><a href="#"> <img src="assests/products/product26.jfif" alt="product1" class="img-fluid"> </a>
+             </div>
+             <div class="text-center">
+               <h6> Vans Sneakers </h6>
+               <div class="rating text-warning font-size-12">
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="far fa-star"></i> </span>
+               </div>
+               <div class="price py-2">
+                 <span> R2000 </span>
+               </div>
+               <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+             </div>
+           </div>
+        </div>
+       </div>
+       <div class="grid-item Adidas border">
+        <div class="item py-2" style="width: 200px;">
+           <div class="product">
+             <div class="zoom"><a href="#"> <img src="assests/products/product16.jfif" alt="product1" class="img-fluid"> </a>
+             </div>
+             <div class="text-center">
+               <h6> Adidas Sneakers </h6>
+               <div class="rating text-warning font-size-12">
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="far fa-star"></i> </span>
+               </div>
+               <div class="price py-2">
+                 <span> R2000 </span>
+               </div>
+               <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+             </div>
+           </div>
+        </div>
+       </div>
+       <div class="grid-item Vans border">
+        <div class="item py-2" style="width: 200px;">
+           <div class="product">
+             <div class="zoom"><a href="#"> <img src="assests/products/product25.jfif" alt="product1" class="img-fluid"> </a>
+             </div>
+             <div class="text-center">
+               <h6> Vans Sneakers </h6>
+               <div class="rating text-warning font-size-12">
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="far fa-star"></i> </span>
+               </div>
+               <div class="price py-2">
+                 <span> R2000 </span>
+               </div>
+               <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+             </div>
+           </div>
+        </div>
+       </div>
+       <div class="grid-item Adidas border">
+        <div class="item py-2" style="width: 200px;">
+           <div class="product">
+             <div class="zoom"><a href="#"> <img src="assests/products/product15.jfif" alt="product1" class="img-fluid"> </a>
+             </div>
+             <div class="text-center">
+               <h6> Adidas Sneakers </h6>
+               <div class="rating text-warning font-size-12">
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="fas fa-star"></i> </span>
+                 <span> <i class="far fa-star"></i> </span>
+               </div>
+               <div class="price py-2">
+                 <span> R2000 </span>
+               </div>
+               <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+             </div>
+           </div>
+        </div>
+       </div>
+       <div class="grid-item Puma border">
+         <div class="item py-2" style="width: 200px;">
+            <div class="product">
+              <div class="zoom"><a href="#"> <img src="assests/products/product19.jfif" alt="product1" class="img-fluid"> </a>
+              </div>
+              <div class="text-center">
+                <h6> Puma Sneakers </h6>
+                <div class="rating text-warning font-size-12">
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="far fa-star"></i> </span>
+                </div>
+                <div class="price py-2">
+                  <span> R2000 </span>
+                </div>
+                <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+              </div>
+            </div>
+         </div>
+        </div>
+       <div class="grid-item Vans border">
+         <div class="item py-2" style="width: 200px;">
+            <div class="product">
+              <div class="zoom"><a href="#"> <img src="assests/products/product26.jfif" alt="product1" class="img-fluid"> </a>
+              </div>
+              <div class="text-center">
+                <h6> Vans Sneakers </h6>
+                <div class="rating text-warning font-size-12">
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="far fa-star"></i> </span>
+                </div>
+                <div class="price py-2">
+                  <span> R2000 </span>
+                </div>
+                <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+              </div>
+            </div>
+         </div>
+        </div>
+        <div class="grid-item Adidas border">
+         <div class="item py-2" style="width: 200px;">
+            <div class="product">
+              <div class="zoom"><a href="#"> <img src="assests/products/product16.jfif" alt="product1" class="img-fluid"> </a>
+              </div>
+              <div class="text-center">
+                <h6> Adidas Sneakers </h6>
+                <div class="rating text-warning font-size-12">
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="far fa-star"></i> </span>
+                </div>
+                <div class="price py-2">
+                  <span> R2000 </span>
+                </div>
+                <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+              </div>
+            </div>
+         </div>
+        </div>
+        <div class="grid-item Vans border">
+         <div class="item py-2" style="width: 200px;">
+            <div class="product">
+              <div class="zoom"><a href="#"> <img src="assests/products/product25.jfif" alt="product1" class="img-fluid"> </a>
+              </div>
+              <div class="text-center">
+                <h6> Vans Sneakers </h6>
+                <div class="rating text-warning font-size-12">
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="fas fa-star"></i> </span>
+                  <span> <i class="far fa-star"></i> </span>
+                </div>
+                <div class="price py-2">
+                  <span> R2000 </span>
+                </div>
+                <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+              </div>
+            </div>
+         </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!------------- Banner Ads --------------------------->
+<section id="banner_ads">
+  <div class="container py-5 tetx-center">
+     <img src="assests/products/banner7.png" alt="banner1" class="img-fluid">
+     <img src="assests/products/banner8.png" alt="banner1" class="img-fluid">
+  </div>
+</section>
+
+<!------------- New Sneakers ------------------------->
+<section id="new-sneakers">
+  <div class="container">
+    <h4 class="font-size-20"> New Sneakers </h4>
+    <hr>
+
+    <div class="owl-carousel owl-theme">
+      <div class="item py-2 bg-light">
+        <div class="product">
+          <div class="zoom"><a href="#"> <img src="assests/products/product1.jfif" alt="product1" class="img-fluid"> </a>
+          </div>
+          <div class="text-center">
+            <h6> Nike Sneakers </h6>
+            <div class="rating text-warning font-size-12">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="far fa-star"></i> </span>
+            </div>
+            <div class="price py-2">
+              <span> R2000 </span>
+            </div>
+            <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+          </div>
+        </div>
+      </div>
+      <div class="item py-2 bg-light">
+        <div class="product">
+          <div class="zoom"><a href="#"> <img src="assests/products/product2.jfif" alt="product2" class="img-fluid"> </a>
+          </div>
+          <div class="text-center">
+            <h6> Nike Sneakers </h6>
+            <div class="rating text-warning font-size-12">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="far fa-star"></i> </span>
+            </div>
+            <div class="price py-2">
+              <span> R1500 </span>
+            </div>
+            <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+          </div>
+        </div>
+      </div>
+      <div class="item py-2 bg-light">
+        <div class="product">
+          <div class="zoom"><a href="#"> <img src="assests/products/product12.jfif" alt="product3" class="img-fluid"> </a>
+          </div>
+          <div class="text-center">
+            <h6> Nike Sneakers </h6>
+            <div class="rating text-warning font-size-12">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="far fa-star"></i> </span>
+            </div>
+            <div class="price py-2">
+              <span> R2500 </span>
+            </div>
+            <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+          </div>
+        </div>
+      </div>
+      <div class="item py-2 bg-light">
+        <div class="product">
+          <div class="zoom"><a href="#"> <img src="assests/products/product13.jfif" alt="product4" class="img-fluid"> </a>
+          </div>
+          <div class="text-center">
+            <h6> Nike Sneakers </h6>
+            <div class="rating text-warning font-size-12">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="far fa-star"></i> </span>
+            </div>
+            <div class="price py-2">
+              <span> R1500 </span>
+            </div>
+            <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+          </div>
+        </div>
+      </div>
+      <div class="item py-2 bg-light">
+        <div class="product">
+          <div class="zoom"><a href="#"> <img src="assests/products/product14.png" alt="product5" class="img-fluid"> </a>
+          </div>
+          <div class="text-center">
+            <h6> Nike Sneakers </h6>
+            <div class="rating text-warning font-size-12">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="far fa-star"></i> </span>
+            </div>
+            <div class="price py-2">
+              <span> R2500 </span>
+            </div>
+            <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+          </div>
+        </div>
+      </div>
+      <div class="item py-2 bg-light">
+        <div class="product">
+          <div class="zoom"><a href="#"> <img src="assests/products/product14.png" alt="product5" class="img-fluid"> </a>
+          </div>
+          <div class="text-center">
+            <h6> Nike Sneakers </h6>
+            <div class="rating text-warning font-size-12">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="far fa-star"></i> </span>
+            </div>
+            <div class="price py-2">
+              <span> R2500 </span>
+            </div>
+            <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+          </div>
+        </div>
+      </div>
+      <div class="item py-2 bg-light">
+        <div class="product">
+          <div class="zoom"><a href="#"> <img src="assests/products/product14.png" alt="product5" class="img-fluid"> </a>
+          </div>
+          <div class="text-center">
+            <h6> Nike Sneakers </h6>
+            <div class="rating text-warning font-size-12">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="far fa-star"></i> </span>
+            </div>
+            <div class="price py-2">
+              <span> R2500 </span>
+            </div>
+            <button type="submit" class="btn btn-warning font-size-12"> Add To Cart </button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+
+<!------------- Blog --------------------------------->
+<section id="blogs">
+  <div class="container py-4">
+    <h4 class="font-size-20"> Latest Blogs </h4>
+    <hr>
+
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <div class="card border-0 mr-5" style="width: 18rem;">
+          <h5 class="card-title font-size-12"> Upcoming Sneakers </h5>
+          <img src="assests/products/product10.jfif" alt="card image" class="card-img-top">
+          <p class="card-text font-size-8 text-black-50 py-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Eius delectus culpa eos vero voluptatibus assumenda libero dicta, 
+            quasi obcaecati inventore! 
+          </p>
+          <a href="#" class="color-second text-left"> Go somewhere </a>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card border-0 mr-5" style="width: 18rem;">
+          <h5 class="card-title font-size-12"> Upcoming Sneakers </h5>
+          <img src="assests/products/product8.jfif" alt="card image" class="card-img-top">
+          <p class="card-text font-size-8 text-black-50 py-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Eius delectus culpa eos vero voluptatibus assumenda libero dicta, 
+            quasi obcaecati inventore! 
+          </p>
+          <a href="#" class="color-second text-left"> Go somewhere </a>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card border-0 mr-5" style="width: 18rem;">
+          <h5 class="card-title font-size-12"> Upcoming Sneakers </h5>
+          <img src="assests/products/product3.png" alt="card image" class="card-img-top">
+          <p class="card-text font-size-8 text-black-50 py-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Eius delectus culpa eos vero voluptatibus assumenda libero dicta, 
+            quasi obcaecati inventore! 
+          </p>
+          <a href="#" class="color-second text-left"> Go somewhere </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!------------- Footer ------------------------------->
+<footer id="footer" class="bg-dark text-white py-5">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-3 col-12">
+         <h4> Sneaker Shop </h4>
+         <p class="font-size-12 text-white-50"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Dignissimos dolorum eum explicabo modi quos, 
+           blanditiis quia incidunt et fugit neque. 
+        </p>
+       </div>
+       <div class="col-lg-4 col-12">
+        <h4> News Letter </h4>
+        <form action=".." class="form-row">
+           <div class="col">
+             <input type="text" class="form-control" placeholder="Email *" required>
+           </div>
+           <div class="col">
+              <button type="submit" class="btn btn-danger mb-2"> Subscribe </button>
+           </div>
+        </form>
+       </div>
+       <div class="col-lg-2 col-12">
+        <h4> Information </h4>
+        <div class="d-flex flex-column flex-wrap">
+           <a href="#" class="font-size-12 text-white-50 pb-1"> About Us </a>
+           <a href="#" class="font-size-12 text-white-50 pb-1"> Delivery Information </a>
+           <a href="#" class="font-size-12 text-white-50 pb-1"> Privacy Policy </a>
+           <a href="#" class="font-size-12 text-white-50 pb-1"> Terms & Conditions </a>
+        </div>
+
+       </div>
+       <div class="col-lg-2 col-12">
+        <h4> Account </h4>
+        <div class="d-flex flex-column flex-wrap">
+          <a href="#" class="font-size-12 text-white-50 pb-1"> My Account </a>
+          <a href="#" class="font-size-12 text-white-50 pb-1"> Order History </a>
+          <a href="#" class="font-size-12 text-white-50 pb-1"> Wish List </a>
+          <a href="#" class="font-size-12 text-white-50 pb-1"> Newsletter </a>
+       </div>
+
+       </div>
+     </div>
+   </div>
+</footer>
+
+<div class="copyright text-center bg-dark text-white py-2">
+   <p> &copy;Copyright 2021. Designed by: <a href="#" class="color-second"> Sinethemba Nxavipi <i class="fab fa-facebook-f"></i> </a> </p>
+</div>
+
+<!------------ Custom Javascrippt File --------------->
+<script src="js/Jquery3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/main.js" defer></script>
+
+<!-------------- AOS Library ------------------------->
+<script src="js/aos.js"></script>
+
+<!--------------------- Footer End ------------------->
+<script src="js/smooth-scroll.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+  
+</body>
+</html>

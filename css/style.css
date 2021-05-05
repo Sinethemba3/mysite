@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+/******* sass template **********************/
+/********** global classes ******************/
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*********** Header in Global classes*********/
+#header{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+/************** img-details ***********************/
+.owl-carousel .item .product img{
+  width: auto;
+  margin: 15px auto;
+  height: 200px;
+}
+
+/************ typography classes *************/
+.font-baloo {
+  font-family: font-baloo;
+}
+
+.font-rale {
+  font-family: font-raleway;
+}
+
+.font-rubik {
+  font-family: font-rubik;
+}
+
+.fonnt-size-12px {
+  font-size: 12;
+}
+
+.fonnt-size-14px {
+  font-size: 14;
+}
+
+.fonnt-size-16px {
+  font-size: 16;
+}
+
+.fonnt-size-20px {
+  font-size: 20;
+}
+
+/********** Color template **************/
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #37c7c7;
+}
+
+.color-second-bg {
+  background: #37c7c7;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow {
+  background: #FFD289;
+}
+
+/***************** top sale template ***************/
+#top-sale .owl-carousel .item .product a{
+    overflow: hidden;
+  }
+
+#top-sale .owl-carousel .item .product img{
+    transition: transform 5s ease;
+  }
+
+#top-sale .owl-carousel .item .product img:hover{
+    transform: scale(1.1);
+  }
+
+#top-sale .owl-carousel .owl-nav button{
+    position: absolute;
+    top: 30%;
+    outline: none;
+  }
+
+#top-sale .owl-carousel .owl-nav button.owl-prev span{
+    font-size: 35px;
+    color: color-primary;
+    margin-left: -4rem;
+    padding: 0 1rem;
+  }
+
+#top-sale .owl-carousel .owl-nav button.owl-next{
+    right: 0;
+  }
+
+#top-sale .owl-carousel .owl-nav button.owl-next span{
+    font-size: 35px;
+    color: color-primary;
+    margin-right: -4rem;
+    padding: 0 1rem;
+  }
+
+
+/***************** Responsive Pics *****************/
+.zoom
+{
+  transition: transform 0.3s;
+}
+.zoom:hover
+{
+	transform: scale(1.1);
+}
+
+/********* soecial-price section template ************/
+#special-price .grid .grid-item{
+
+      margin-right: 1.2rem;
+      margin-top: 1rem;
+  }
+/*# sourceMappingURL=style.css.map */
